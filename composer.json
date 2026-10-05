@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/filament-notifications",
+    "description": "Tyhp type definitions for filament/notifications 5.8.2.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "5.8.2",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/filament-notifications-impl": "~5.8.2.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/filament-notifications-impl"
+        }
+    }
+}
